@@ -1,0 +1,30 @@
+{
+  "name": "croosle",
+  "version": "0.0.1",
+  "description": "croosle sensortag node server",
+  "main": "croosle.js",
+  "scripts": {
+    "start": "node croosle.js"
+  },
+  "dependencies": {
+    "sensortag": "0.1.9",
+    "prompt": "0.2.14",
+    "async": "0.9.0",
+    "sqlite3": "3.0.4",
+    "express.io": "1.1.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bl4z/croosle.git"
+  },
+  "keywords": [
+    "croosle",
+    "sensortag"
+  ],
+  "author": "blaz praper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bl4z/croosle/issues"
+  },
+  "homepage": "https://github.com/bl4z/croosle"
+}

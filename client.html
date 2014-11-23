@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript">
+		var socket = io.connect();
+		socket.on('sensor', function (data) {
+			$("pre#output").append(JSON.stringify(data)+"\n");
+		});
+	</script>
+</head>
+<body>
+	<pre>   _____ _____   ____   ____   _____ _      ______ 
+  / ____|  __ \ / __ \ / __ \ / ____| |    |  ____|
+ | |    | |__) | |  | | |  | | (___ | |    | |__   
+ | |    |  _  /| |  | | |  | |\___ \| |    |  __|  
+ | |____| | \ \| |__| | |__| |____) | |____| |____ 
+  \_____|_|  \_\\____/ \____/|_____/|______|______|
+
+<b>sensortag data:</b></pre>
+	<input type="button" value="clear" onclick="$('pre#output').empty();" />
+	<pre id="output"></pre>
+</body>
+</html>
