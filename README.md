@@ -1,9 +1,14 @@
-# croosle sensortag
+# Croosle sensortag
 
-Croosle sensortag for RaspberryPI running RASPBIAN
-(http://www.raspberrypi.org/downloads/)
+### HW requirements
+https://github.com/bl4z/croosle/wiki
 
 ### Installation
+
+raspbian
+```sh
+http://www.raspberrypi.org/downloads/
+```
 
 node.js and npm
 ```sh
