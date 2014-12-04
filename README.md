@@ -3,6 +3,9 @@
 ### HW requirements
 https://github.com/bl4z/croosle/wiki
 
+### Tutorial
+https://github.com/bl4z/croosle/wiki/Tutorial
+
 ### Installation
 
 raspbian
