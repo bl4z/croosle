@@ -4,7 +4,7 @@
 https://github.com/bl4z/croosle/wiki
 
 ### Tutorial
-https://github.com/bl4z/croosle/wiki/Tutorial
+https://github.com/bl4z/croosle/wiki/Tutorial-%7C-Sample-1
 
 ### Installation
 
